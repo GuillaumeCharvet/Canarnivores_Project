@@ -3,7 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Gangster
+  - Gang1
+  - Gang2
+  - Gang3
+  - Gang4
+  - Generator1
+  - Generator2
+  - Generator3
+  - Generator4
   layers:
   - Default
   - TransparentFX
