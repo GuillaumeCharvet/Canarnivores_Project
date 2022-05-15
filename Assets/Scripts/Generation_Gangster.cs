@@ -11,6 +11,8 @@ public class Generation_Gangster : MonoBehaviour
     private int coutTerrain = 120;
     public SelectionGang selectionGang;
 
+    public Sprite spriteGang;
+
 
     private void Start()
     {
@@ -20,7 +22,7 @@ public class Generation_Gangster : MonoBehaviour
 
     public void SpawnGangster()
     {
-        if (gangManager.numberOfGold >= coutGangster && gangManager.numberOfGangsters <= 10)
+        if (gangManager.numberOfGold >= coutGangster && gangManager.numberOfGangsters <= 15)
         {
             gangManager.numberOfGold -= coutGangster;
             gangManager.numberOfGangsters++;
@@ -28,6 +30,7 @@ public class Generation_Gangster : MonoBehaviour
             newGangster.name = "gangster" + gangManager.numberOfGangsters + "duGang" + gang_appartenance;
             newGangster.GetComponent<GangsterBehaviour>().gang_appartenance = gang_appartenance;
             newGangster.layer = 5 + gang_appartenance;
+            newGangster.transform.GetChild(0).GetComponent<SpriteRenderer>().sprite = spriteGang;
         }
         else if (gangManager.numberOfGold >= coutTerrain)
         {
@@ -38,6 +41,8 @@ public class Generation_Gangster : MonoBehaviour
                 gangManager.influenceVerticale++;
                 selectionGang.listeGangs[2].GetComponent<GangManager>().influenceHorizontale++;
                 selectionGang.listeGangs[4].GetComponent<GangManager>().influenceVerticale++;
+                selectionGang.listeGangs[3].GetComponent<GangManager>().influenceHorizontale++;
+                selectionGang.listeGangs[3].GetComponent<GangManager>().influenceVerticale++;
             }
             else if (gang_appartenance == 2)
             {
@@ -45,6 +50,9 @@ public class Generation_Gangster : MonoBehaviour
                 gangManager.influenceVerticale--;
                 selectionGang.listeGangs[3].GetComponent<GangManager>().influenceHorizontale++;
                 selectionGang.listeGangs[1].GetComponent<GangManager>().influenceVerticale--;
+                selectionGang.listeGangs[4].GetComponent<GangManager>().influenceHorizontale++;
+                selectionGang.listeGangs[4].GetComponent<GangManager>().influenceVerticale--;
+
             }
             else if (gang_appartenance == 3)
             {
@@ -52,6 +60,8 @@ public class Generation_Gangster : MonoBehaviour
                 gangManager.influenceVerticale--;
                 selectionGang.listeGangs[2].GetComponent<GangManager>().influenceHorizontale--;
                 selectionGang.listeGangs[4].GetComponent<GangManager>().influenceVerticale--;
+                selectionGang.listeGangs[1].GetComponent<GangManager>().influenceHorizontale--;
+                selectionGang.listeGangs[1].GetComponent<GangManager>().influenceVerticale--;
             }
             else if (gang_appartenance == 4)
             {
@@ -59,6 +69,8 @@ public class Generation_Gangster : MonoBehaviour
                 gangManager.influenceVerticale++;
                 selectionGang.listeGangs[1].GetComponent<GangManager>().influenceHorizontale--;
                 selectionGang.listeGangs[3].GetComponent<GangManager>().influenceVerticale++;
+                selectionGang.listeGangs[2].GetComponent<GangManager>().influenceHorizontale--;
+                selectionGang.listeGangs[2].GetComponent<GangManager>().influenceVerticale++;
             }
         }
     }

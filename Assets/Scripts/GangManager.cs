@@ -12,19 +12,35 @@ public class GangManager : MonoBehaviour
     [SerializeField, Range(-10, 10)]
     public int influenceHorizontale = 0;
 
+    private int passiveIncome = 30;
+    private float cdThunesMax = 3f;
+    private float cdThunesCurrent;
+
     private float dx = 0.01f;
 
     public Transform trsfVertical, trsfHorizontal, trsfRepere;
 
     void Start()
     {
+        cdThunesCurrent = cdThunesMax;
         numberOfGold = 130;
         numberOfGangsters = 0;
     }
 
     void Update()
     {
+        cdThunesCurrent -= Time.deltaTime;
+        if (cdThunesCurrent <= 0)
+        {
+            cdThunesCurrent = cdThunesMax;
+            numberOfGold += passiveIncome;
+        }
         UpdateZone();
+
+        if (gangNumber == 1 && influenceVerticale >= 10 && influenceHorizontale >= 8)
+        {
+
+        }
     }
     public void UpdateZone()
     {

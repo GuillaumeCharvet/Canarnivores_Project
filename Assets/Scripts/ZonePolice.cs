@@ -2,26 +2,27 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ParticuleFight : MonoBehaviour
+public class ZonePolice : MonoBehaviour
 {
     private float spawnLenght = 0.5f;
     private bool isSpawning = true;
-    private float stayLenght = 1f;
+    private float stayLenght = 4f;
     private bool isDespawning = false;
     private float stayDespawn = 1f;
     private bool needToDie = false;
 
-    private SpriteRenderer sprite;
-    public AudioSource audioOK;
+    public Material material;
 
-    private void Start()
+    void Start()
     {
-        transform.position = transform.position + Vector3.up;
-        transform.Rotate(40f, 0f, 0f);
-        sprite = transform.GetComponent<SpriteRenderer>();
-        sprite.color = new Color(sprite.color.r, sprite.color.g, sprite.color.b, 0f);
-        audioOK.volume = 0.5f;
-        audioOK.Play();
+        material.color = new Color(0.2f, 0.2f, 0.2f, 0f);
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Gangster")
+        {
+            other.GetComponent<GangsterBehaviour>().isFleeing = true;
+        }
     }
 
     void Update()
@@ -29,7 +30,7 @@ public class ParticuleFight : MonoBehaviour
         if (isSpawning)
         {
             spawnLenght -= Time.deltaTime;
-            sprite.color = new Color(sprite.color.r, sprite.color.g, sprite.color.b, Mathf.Min(1f, sprite.color.a + Time.deltaTime / 0.5f));
+            material.color = new Color(material.color.r, material.color.g, material.color.b, Mathf.Min(1f, material.color.a + Time.deltaTime / 0.5f)); //
         }
         if (spawnLenght <= 0f) isSpawning = false;
         if (!isSpawning && !isDespawning) stayLenght -= Time.deltaTime;
@@ -37,7 +38,7 @@ public class ParticuleFight : MonoBehaviour
         if (isDespawning)
         {
             stayDespawn -= Time.deltaTime;
-            sprite.color = new Color(sprite.color.r, sprite.color.g, sprite.color.b, sprite.color.a - Time.deltaTime / 1f);
+            material.color = new Color(material.color.r, material.color.g, material.color.b, Mathf.Min(1f, material.color.a + Time.deltaTime / 4f));
         }
         if (stayDespawn <= 0f) needToDie = true;
         if (needToDie) Destroy(transform.gameObject);

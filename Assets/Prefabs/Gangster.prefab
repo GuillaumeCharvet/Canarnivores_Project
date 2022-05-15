@@ -146,6 +146,7 @@ MonoBehaviour:
   isPausing: 0
   isAttacking: 0
   isAttacked: 0
+  isFleeing: 0
   transformImage: {fileID: 6638813333936164305}
   particuleCombat: {fileID: 8926990286034634181, guid: 08e9dcdc22e16b54f814a123654a5945, type: 3}
   currentEnnemi: {fileID: 0}
@@ -153,6 +154,14 @@ MonoBehaviour:
   selectionGang: {fileID: 0}
   entering: 0
   exiting: 0
+  gang1: {fileID: 0}
+  gang2: {fileID: 0}
+  gang3: {fileID: 0}
+  gang4: {fileID: 0}
+  gangGene1: {fileID: 0}
+  gangGene2: {fileID: 0}
+  gangGene3: {fileID: 0}
+  gangGene4: {fileID: 0}
 --- !u!65 &6638813334382807005
 BoxCollider:
   m_ObjectHideFlags: 0
