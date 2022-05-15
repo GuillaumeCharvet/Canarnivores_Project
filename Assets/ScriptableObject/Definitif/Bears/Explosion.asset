@@ -17,10 +17,10 @@ MonoBehaviour:
   ImagePerso: {fileID: 21300000, guid: 9117666928717ff42a59660742eb9bc1, type: 3}
   CadrePerso: {fileID: 21300000, guid: f6db6139946c7464d8a5571f5429138b, type: 3}
   PointEvenement: {fileID: 21300000, guid: 18c77f71470640b42b88e771714ff7f8, type: 3}
-  NomPerso: Nikolai Roarovich
-  Demande: "Bonjour comrade,\r\n\r\nMoi avoir f\xE2cheuse nouvelle. Nous avoir fait
-    exploser d\xE9pot armes dans quartiers. Feu partout, tout d\xE9truit. Nous proposer
-    payer pour reconstruire, aider ville et aussi garder d\xE9pot. Vous \xEAtre d\u2019accord?\r"
+  NomPerso: 'Nikolai Roarovich :'
+  Demande: "Bonjour comrade,\r\nMoi avoir f\xE2cheuse nouvelle. Nous avoir fait exploser
+    d\xE9pot armes dans quartiers. Feu partout, tout d\xE9truit. Nous proposer payer
+    pour reconstruire, aider ville et aussi garder d\xE9pot. Vous \xEAtre d\u2019accord?\r"
   Choix1: Reconstruire
   Choix1ValeurGang: 10
   Choix1NumDuGang: 2
@@ -35,4 +35,4 @@ MonoBehaviour:
   Choix2NumDuGang2: 0
   Choix2ValeurArgent: 0
   Choix2BoolAction: 0
-  VarAle: 0
+  VarAle: 7

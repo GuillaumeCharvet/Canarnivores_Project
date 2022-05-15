@@ -17,8 +17,8 @@ MonoBehaviour:
   ImagePerso: {fileID: 21300000, guid: 9117666928717ff42a59660742eb9bc1, type: 3}
   CadrePerso: {fileID: 21300000, guid: f6db6139946c7464d8a5571f5429138b, type: 3}
   PointEvenement: {fileID: 21300000, guid: 18c77f71470640b42b88e771714ff7f8, type: 3}
-  NomPerso: Nikolai Roarovich
-  Demande: "Zdrastvou\xEFte glava derevni,\r\n\r\nNous vouloir renforcer relations
+  NomPerso: 'Nikolai Roarovich :'
+  Demande: "Zdrastvou\xEFte glava derevni,\r\n\rNous vouloir renforcer relations
     avec autres gangs. Nous pouvoir livrer armes \xE0 autres gangs pour am\xE9liorer
     relations avec nous. Nous penser etre bonne id\xE9e et vous gagner argent en
     echange. Vous vouloir qui?\r\n"
@@ -36,4 +36,4 @@ MonoBehaviour:
   Choix2NumDuGang2: 0
   Choix2ValeurArgent: 10
   Choix2BoolAction: 0
-  VarAle: 0
+  VarAle: 8

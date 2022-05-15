@@ -17,9 +17,9 @@ MonoBehaviour:
   ImagePerso: {fileID: 21300000, guid: 0c0c2ae8a704b21428e37aeb90885c17, type: 3}
   CadrePerso: {fileID: 21300000, guid: 2164ffd09c3c6d04ab70e63a13e4feb7, type: 3}
   PointEvenement: {fileID: 21300000, guid: 7d241eeece7bdc64d82e9c8a070a1fc1, type: 3}
-  NomPerso: Hineko Nyakuza
-  Demande: "Konichiwa k\u014Dhai,\r\n\r\nQue diriez-vous d\u2019une petite partie
-    entre vous et moi? Je sais que vous \xEAtes tr\xE8s joueur et je le suis aussi\u2026
+  NomPerso: 'Hineko Nyakuza :'
+  Demande: "Konichiwa k\u014Dhai,\r\n\rQue diriez-vous d\u2019une petite partie entre
+    vous et moi? Je sais que vous \xEAtes tr\xE8s joueur et je le suis aussi\u2026
     Nul n\u2019est plus chanceux que celui qui croit \xE0 sa chance."
   Choix1: Pile
   Choix1ValeurGang: 10
@@ -35,4 +35,4 @@ MonoBehaviour:
   Choix2NumDuGang2: 0
   Choix2ValeurArgent: 10
   Choix2BoolAction: 0
-  VarAle: 0
+  VarAle: 11
