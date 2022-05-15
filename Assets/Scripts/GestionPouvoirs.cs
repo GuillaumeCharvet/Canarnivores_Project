@@ -69,6 +69,7 @@ public class GestionPouvoirs : MonoBehaviour
     public void UsePower1(Vector3 position)
     {
         Instantiate(zonePolice, position, Quaternion.identity);
+        audioPolice.volume = 0.6f;
         audioPolice.Play();
     }
     public void UsePower2(Vector3 position)

@@ -12,6 +12,8 @@ public class Timer : MonoBehaviour
     public float TimerInterval = 5f ;
     float tick;
 
+    public GameObject go;
+
     private void Awake()
     {
         InfoEvent.FindObjectOfType<InfoEvent>();
@@ -33,9 +35,10 @@ public class Timer : MonoBehaviour
             TimerExecute(); 
         }
 
-        if(time < 0)
+        if(time > 299)
         {
-            time = 0;
+            Time.timeScale = 0;
+            go.SetActive(true);
         }
     }
 
