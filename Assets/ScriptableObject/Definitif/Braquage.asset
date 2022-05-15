@@ -22,10 +22,17 @@ MonoBehaviour:
     Ils sont rentr\xE9s, ont terroris\xE9 les pauvres citoyens pr\xE9sents sur place
     et sont repartis avec tout le contenu du coffre fort. Devons nous les poursuivre?\r"
   Choix1: Poursuivre
-  Choix1ValeurGang: 0
+  Choix1ValeurGang: -10
   Choix1NumDuGang: 0
-  Choix1BoolAction: 0
+  Choix1ValeurGang2: 0
+  Choix1NumDuGang2: 0
+  Choix1ValeurArgent: 10
+  Choix1BoolAction: 1
   Choix2: Rien Faire
-  Choix2ValeurGang: 0
+  Choix2ValeurGang: 10
   Choix2NumDuGang: 0
+  Choix2ValeurGang2: 0
+  Choix2NumDuGang2: 0
+  Choix2ValeurArgent: -10
   Choix2BoolAction: 0
+  VarAle: 0

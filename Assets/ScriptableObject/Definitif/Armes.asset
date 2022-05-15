@@ -28,7 +28,7 @@ MonoBehaviour:
   Choix1ValeurGang2: 0
   Choix1NumDuGang2: 0
   Choix1ValeurArgent: 0
-  Choix1BoolAction: 0
+  Choix1BoolAction: 1
   Choix2: Rien faire
   Choix2ValeurGang: 10
   Choix2NumDuGang: 0

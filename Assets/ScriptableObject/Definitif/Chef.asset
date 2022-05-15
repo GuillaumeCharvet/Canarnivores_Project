@@ -18,15 +18,23 @@ MonoBehaviour:
   CadrePerso: {fileID: 21300000, guid: f6db6139946c7464d8a5571f5429138b, type: 3}
   PointEvenement: {fileID: 21300000, guid: 0b7d9c8c7c608ac4fa1d2323da7fc9be, type: 3}
   NomPerso: 
-  Demande: "Monsieur le maire,\r\n\r\nLes gangs des \u201Cnom du gang\u201D ont sabot\xE9
-    un quartier de Zoopolis en repr\xE9sailles des \u201Cnom de gang 2\u201D. Devons-nous
-    restaurer le quartier pour satisfaire les \u201Cgang 2\u201D? Attention, cela
-    risque de provoquer les \u201Cgang\u201C\r"
-  Choix1: Rien faire
+  Demande: "Monsieur le maire,\r\n\rNos forces de l\u2019ordre ont r\xE9ussi \xE0
+    mettre la main sur un haut grad\xE9 du gang des \u201Cgang\u201D. Il s\xE9journe
+    actuellement en prison et les haut plac\xE9s chez les \u201Cgang\u201D sont furieux.
+    Ils nous proposent un prix en \xE9change de sa lib\xE9ration Que devons nous
+    faire de ce prisonnier?\r\r"
+  Choix1: Emprisonner
   Choix1ValeurGang: -10
   Choix1NumDuGang: 0
+  Choix1ValeurGang2: 0
+  Choix1NumDuGang2: 0
+  Choix1ValeurArgent: 0
   Choix1BoolAction: 0
-  Choix2: Reconstruire
+  Choix2: Relacher
   Choix2ValeurGang: 10
   Choix2NumDuGang: 0
+  Choix2ValeurGang2: 0
+  Choix2NumDuGang2: 0
+  Choix2ValeurArgent: 10
   Choix2BoolAction: 0
+  VarAle: 0
