@@ -376,6 +376,10 @@ PrefabInstance:
       propertyPath: style0ou1
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4608805986818703102, guid: b606eb9b32ffe324d8f2c1c552e93038, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b606eb9b32ffe324d8f2c1c552e93038, type: 3}
 --- !u!4 &115265323 stripped
@@ -1643,6 +1647,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4608805986818703102, guid: b606eb9b32ffe324d8f2c1c552e93038, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b606eb9b32ffe324d8f2c1c552e93038, type: 3}
 --- !u!4 &817470391 stripped
@@ -1982,6 +1990,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1929316733}
     m_Modifications:
+    - target: {fileID: -8001485189588780764, guid: b1615c80aed96cc429e8a374ba84e7ed, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 250072962011493467, guid: b1615c80aed96cc429e8a374ba84e7ed, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -2355,6 +2367,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1929316733}
     m_Modifications:
+    - target: {fileID: -8001485189588780764, guid: b1615c80aed96cc429e8a374ba84e7ed, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 250072962011493467, guid: b1615c80aed96cc429e8a374ba84e7ed, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -2583,6 +2599,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1929316733}
     m_Modifications:
+    - target: {fileID: -8593226647977810652, guid: 026d61baff6d33d4c8e21eff3dcf63b8, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5893391215048968410, guid: 026d61baff6d33d4c8e21eff3dcf63b8, type: 3}
       propertyPath: m_Name
       value: Maison4 (1)
@@ -3027,6 +3047,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1929316733}
     m_Modifications:
+    - target: {fileID: -5161634754243704535, guid: 15e3f873a5af3904ab837d9c0072df00, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1880034506334839661, guid: 15e3f873a5af3904ab837d9c0072df00, type: 3}
       propertyPath: m_Name
       value: Maison2 (2)
@@ -3220,6 +3244,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1929316733}
     m_Modifications:
+    - target: {fileID: -8001485189588780764, guid: b1615c80aed96cc429e8a374ba84e7ed, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 250072962011493467, guid: b1615c80aed96cc429e8a374ba84e7ed, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -3286,6 +3314,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1929316733}
     m_Modifications:
+    - target: {fileID: -5161634754243704535, guid: 15e3f873a5af3904ab837d9c0072df00, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 311536631545337266, guid: 15e3f873a5af3904ab837d9c0072df00, type: 3}
       propertyPath: style0ou1
       value: 1
@@ -3407,6 +3439,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1929316733}
     m_Modifications:
+    - target: {fileID: -8593226647977810652, guid: 026d61baff6d33d4c8e21eff3dcf63b8, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5893391215048968410, guid: 026d61baff6d33d4c8e21eff3dcf63b8, type: 3}
       propertyPath: m_Name
       value: Maison4 (2)
@@ -3524,6 +3560,10 @@ PrefabInstance:
     - target: {fileID: 1441621355658945419, guid: b606eb9b32ffe324d8f2c1c552e93038, type: 3}
       propertyPath: style0ou1
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608805986818703102, guid: b606eb9b32ffe324d8f2c1c552e93038, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b606eb9b32ffe324d8f2c1c552e93038, type: 3}
@@ -3654,6 +3694,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1929316733}
     m_Modifications:
+    - target: {fileID: -8593226647977810652, guid: 026d61baff6d33d4c8e21eff3dcf63b8, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5893391215048968410, guid: 026d61baff6d33d4c8e21eff3dcf63b8, type: 3}
       propertyPath: m_Name
       value: Maison4 (3)
@@ -3762,6 +3806,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1333769426432587977, guid: b606eb9b32ffe324d8f2c1c552e93038, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4608805986818703102, guid: b606eb9b32ffe324d8f2c1c552e93038, type: 3}
+      propertyPath: m_PlayOnAwake
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -3948,6 +3996,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1929316733}
     m_Modifications:
+    - target: {fileID: -5161634754243704535, guid: 15e3f873a5af3904ab837d9c0072df00, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1880034506334839661, guid: 15e3f873a5af3904ab837d9c0072df00, type: 3}
       propertyPath: m_Name
       value: Maison2 (1)
@@ -4390,6 +4442,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1929316733}
     m_Modifications:
+    - target: {fileID: -5161634754243704535, guid: 15e3f873a5af3904ab837d9c0072df00, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 311536631545337266, guid: 15e3f873a5af3904ab837d9c0072df00, type: 3}
       propertyPath: style0ou1
       value: 1
@@ -4456,6 +4512,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1929316733}
     m_Modifications:
+    - target: {fileID: -8001485189588780764, guid: b1615c80aed96cc429e8a374ba84e7ed, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 250072962011493467, guid: b1615c80aed96cc429e8a374ba84e7ed, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -4522,6 +4582,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1929316733}
     m_Modifications:
+    - target: {fileID: -8593226647977810652, guid: 026d61baff6d33d4c8e21eff3dcf63b8, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5893391215048968410, guid: 026d61baff6d33d4c8e21eff3dcf63b8, type: 3}
       propertyPath: m_Name
       value: Maison4
