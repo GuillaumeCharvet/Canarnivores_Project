@@ -113,7 +113,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gang_appartenance: 4
   style0ou1: 0
-  audioThunes: {fileID: -8593226647977810652}
+  audio: {fileID: -8593226647977810652}
 --- !u!82 &-8593226647977810652
 AudioSource:
   m_ObjectHideFlags: 0
@@ -125,7 +125,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 432d5279eeb19634a97a62623a0bc3d9, type: 3}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
