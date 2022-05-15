@@ -5,14 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    public AudioSource truc;
+
     public void StartButton()
     {
         SceneManager.LoadScene("SampleScene 1");
-    }
-
-    public void CreditButton()
-    {
-
     }
 
     public void QuitButton()
