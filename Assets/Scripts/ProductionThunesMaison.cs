@@ -10,7 +10,7 @@ public class ProductionThunesMaison : MonoBehaviour
     private SelectionGang selectionGang;
     public int style0ou1;
 
-    public AudioSource audio;
+    public AudioSource audioHQ;
 
     void Start()
     {
@@ -21,9 +21,9 @@ public class ProductionThunesMaison : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        audio.volume = 0.3f;
-        audio.pitch = 0.8f;
-        audio.Play();
+        audioHQ.volume = 0.3f;
+        audioHQ.pitch = 0.8f;
+        audioHQ.Play();
         var gangster = other.GetComponent<GangsterBehaviour>();
         gang_appartenance = gangster.gang_appartenance;
         var gang = selectionGang.listeGangs[gang_appartenance].GetComponent<GangManager>();

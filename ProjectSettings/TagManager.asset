@@ -13,6 +13,7 @@ TagManager:
   - Generator2
   - Generator3
   - Generator4
+  - TextMoney
   layers:
   - Default
   - TransparentFX

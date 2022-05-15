@@ -13,6 +13,9 @@ public class InfoEvent : MonoBehaviour
     public Transform TransformGangster;
     public GangsterBehaviour GangAttach;
 
+    public AudioSource audioSource;
+    public AudioClip audioclip;
+
     //ici le scrip qui declache les event parmit la liste
     public void AddEventAlea()
     {
@@ -96,9 +99,6 @@ public class InfoEvent : MonoBehaviour
             PointEvent.transform.position = listeGangster[gangsterAlea].transform.position;*/
             PointEvent.GetComponent<SpriteRenderer>().sprite = eventactif.PointEvenement;
         }
-
-        
         PointEvent.SetActive(true);
-
     }
 }
