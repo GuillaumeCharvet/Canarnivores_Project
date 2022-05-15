@@ -20,10 +20,11 @@ public class InfoEvent : MonoBehaviour
         eventactif = Event[VarAle];
         Debug.Log(VarAle);
         PointEvent.SetActive(true);
+
     }
 
 
-    public void Update()
+    public  void Update()
     {
         //eventactif = Event[0];
     }

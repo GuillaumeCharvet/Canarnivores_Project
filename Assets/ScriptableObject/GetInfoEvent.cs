@@ -14,6 +14,9 @@ public class GetInfoEvent : MonoBehaviour
     public int _Gang;
 
     [SerializeField]
+    public AudioClip _SonDuGang;
+
+    [SerializeField]
     private Image _ImagePerso;
     [SerializeField]
     private Image _CadrePerso;
@@ -33,6 +36,15 @@ public class GetInfoEvent : MonoBehaviour
     public int _Choix1ValeurGang;
     [SerializeField]
     public int _Choix1NumDuGang;
+
+    [SerializeField]
+    public int _Choix1ValeurGang2;
+    [SerializeField]
+    public int _Choix1NumDuGang2;
+    [SerializeField]
+    public int _Choix1ValeurArgent;
+
+
     [SerializeField]
     public bool _Choix1BoolAction;
 
@@ -44,7 +56,18 @@ public class GetInfoEvent : MonoBehaviour
     [SerializeField]
     public int _Choix2NumDuGang;
     [SerializeField]
+    public int _Choix2ValeurGang2;
+    [SerializeField]
+    public int _Choix2NumDuGang2;
+    [SerializeField]
+    public int _Choix2ValeurArgent;
+    [SerializeField]
     public bool _Choix2BoolAction;
+    
+    
+    [SerializeField]
+    public int _varAle;
+
 
 
 
@@ -54,22 +77,32 @@ public class GetInfoEvent : MonoBehaviour
 
 
         _Gang = _InfoEvent.eventactif.Gang;
+
+        _SonDuGang = _InfoEvent.eventactif.SonDuGang;
+
         _ImagePerso.sprite = _InfoEvent.eventactif.ImagePerso;
         _CadrePerso.sprite = _InfoEvent.eventactif.CadrePerso;
-        //_PointEvenement.sprite = Event.PointEvenement;
+        _PointEvenement.sprite = Event.PointEvenement;
         _NomPerso.text = _InfoEvent.eventactif.NomPerso;
         _Demande.text = _InfoEvent.eventactif.Demande;
 
         _Choix1.text = _InfoEvent.eventactif.Choix1;
         _Choix1ValeurGang = _InfoEvent.eventactif.Choix1ValeurGang;
         _Choix1NumDuGang = _InfoEvent.eventactif.Choix1NumDuGang;
+        _Choix1ValeurGang2 = _InfoEvent.eventactif.Choix1ValeurGang2;
+        _Choix1NumDuGang2 = _InfoEvent.eventactif.Choix1NumDuGang2;
+        _Choix1ValeurArgent = _InfoEvent.eventactif.Choix1ValeurArgent;
         _Choix1BoolAction = _InfoEvent.eventactif.Choix1BoolAction;
 
         _Choix2.text = _InfoEvent.eventactif.Choix2;
         _Choi2ValeurGang = _InfoEvent.eventactif.Choix2ValeurGang;
         _Choix2NumDuGang = _InfoEvent.eventactif.Choix2NumDuGang;
+        _Choix2ValeurGang2 = _InfoEvent.eventactif.Choix2ValeurGang2;
+        _Choix2NumDuGang2 = _InfoEvent.eventactif.Choix1NumDuGang2;
+        _Choix2ValeurArgent = _InfoEvent.eventactif.Choix2ValeurArgent;
         _Choix2BoolAction = _InfoEvent.eventactif.Choix2BoolAction;
 
+        _varAle = _InfoEvent.eventactif.VarAle;
 
     }
 }
