@@ -21,7 +21,7 @@ public class GetInfoEvent : MonoBehaviour
     [SerializeField]
     private Image _CadrePerso;
     [SerializeField]
-    private Image _PointEvenement;
+    private SpriteRenderer _PointEvenement;
     [SerializeField]
     private Text _NomPerso;
     [SerializeField]
@@ -82,7 +82,7 @@ public class GetInfoEvent : MonoBehaviour
 
         _ImagePerso.sprite = _InfoEvent.eventactif.ImagePerso;
         _CadrePerso.sprite = _InfoEvent.eventactif.CadrePerso;
-        _PointEvenement.sprite = Event.PointEvenement;
+        _PointEvenement.GetComponent<SpriteRenderer>().sprite = Event.PointEvenement;
         _NomPerso.text = _InfoEvent.eventactif.NomPerso;
         _Demande.text = _InfoEvent.eventactif.Demande;
 
