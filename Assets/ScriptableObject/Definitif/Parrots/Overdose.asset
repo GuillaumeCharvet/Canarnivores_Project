@@ -17,7 +17,7 @@ MonoBehaviour:
   ImagePerso: {fileID: 21300000, guid: c54efd2f554dde7498571ae14f7080d6, type: 3}
   CadrePerso: {fileID: 21300000, guid: bb71d04155ceea9448566a11845ddabb, type: 3}
   PointEvenement: {fileID: 21300000, guid: 3576a3b1ceafff44a8d6abfbe5620fe2, type: 3}
-  NomPerso: Pedro Escocobar
+  NomPerso: 'Pedro Escocobar :'
   Demande: "Hol\xE0 alcade,\r\n\rIl semblerait que mes collaborateurs ont\u2026 comment
     dire\u2026 un peu trop forc\xE9 sur la consommation et ne semblent plus eux m\xEAmes\u2026
     Certes, nous pourrions nous en occuper seuls mais je ne dirais pas non \xE0 quelques
@@ -36,4 +36,4 @@ MonoBehaviour:
   Choix2NumDuGang2: 0
   Choix2ValeurArgent: 0
   Choix2BoolAction: 0
-  VarAle: 0
+  VarAle: 17

@@ -17,7 +17,7 @@ MonoBehaviour:
   ImagePerso: {fileID: 21300000, guid: 0c0c2ae8a704b21428e37aeb90885c17, type: 3}
   CadrePerso: {fileID: 21300000, guid: 2164ffd09c3c6d04ab70e63a13e4feb7, type: 3}
   PointEvenement: {fileID: 21300000, guid: 7d241eeece7bdc64d82e9c8a070a1fc1, type: 3}
-  NomPerso: Hineko Nyakuza
+  NomPerso: 'Hineko Nyakuza :'
   Demande: "Konbanwa,\r\n\rMes shinobis m\u2019ont tenu inform\xE9 que certains de
     mes hommes de main en ont profit\xE9 pour escroquer vos honn\xEAtes citoyens.
     Veuillez m'excuser. Si vous vous refreiner de sanctions, je m\u2019assurerais
@@ -36,4 +36,4 @@ MonoBehaviour:
   Choix2NumDuGang2: 0
   Choix2ValeurArgent: 10
   Choix2BoolAction: 0
-  VarAle: 4
+  VarAle: 9

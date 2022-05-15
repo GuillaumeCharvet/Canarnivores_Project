@@ -15,9 +15,9 @@ MonoBehaviour:
   Gang: 5
   SonDuGang: {fileID: 8300000, guid: f0a998bf26ae02a42bb2bb945de9d809, type: 3}
   ImagePerso: {fileID: 21300000, guid: 0a370ea8ef54f4542b3b875ae53b82a8, type: 3}
-  CadrePerso: {fileID: 21300000, guid: f6db6139946c7464d8a5571f5429138b, type: 3}
-  PointEvenement: {fileID: 21300000, guid: 0b7d9c8c7c608ac4fa1d2323da7fc9be, type: 3}
-  NomPerso: Corrine Delaconta
+  CadrePerso: {fileID: 21300000, guid: f8bfefa37b7594543998e7a3c863540f, type: 3}
+  PointEvenement: {fileID: 21300000, guid: d20153fea74f61b43b93a02f9a1ad40a, type: 3}
+  NomPerso: 'Corinne Delaconta :'
   Demande: "Monsieur le maire,\r\n\rNous avons trouv\xE9 des membres du gang des
     \u201Cgang\u201D en possession d\u2019armes de guerre. Ils risquent de s\u2019en
     prendre \xE0 d\u2019autres gangs ou m\xEAme aux civils. Devons nous leur confisquer
@@ -29,11 +29,11 @@ MonoBehaviour:
   Choix1NumDuGang2: 0
   Choix1ValeurArgent: 0
   Choix1BoolAction: 1
-  Choix2: Rien Faire
+  Choix2: Rien faire
   Choix2ValeurGang: 10
   Choix2NumDuGang: 0
   Choix2ValeurGang2: 0
   Choix2NumDuGang2: 0
   Choix2ValeurArgent: 0
   Choix2BoolAction: 0
-  VarAle: 0
+  VarAle: 5

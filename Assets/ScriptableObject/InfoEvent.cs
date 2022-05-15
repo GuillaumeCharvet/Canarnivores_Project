@@ -97,6 +97,7 @@ public class InfoEvent : MonoBehaviour
             PointEvent.GetComponent<SpriteRenderer>().sprite = eventactif.PointEvenement;
         }
 
+        
         PointEvent.SetActive(true);
 
     }
