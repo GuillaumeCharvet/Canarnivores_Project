@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 457b6673403210c46b78b72b50276874, type: 3}
+  m_Name: Drogue
+  m_EditorClassIdentifier: 
+  Gang: 1
+  SonDuGang: {fileID: 8300000, guid: 3a93e43f5113ecc44962871009f214f5, type: 3}
+  ImagePerso: {fileID: 21300000, guid: c54efd2f554dde7498571ae14f7080d6, type: 3}
+  CadrePerso: {fileID: 21300000, guid: bb71d04155ceea9448566a11845ddabb, type: 3}
+  PointEvenement: {fileID: 21300000, guid: 3576a3b1ceafff44a8d6abfbe5620fe2, type: 3}
+  NomPerso: Pedro Escocobar
+  Demande: "Buenos d\xEDas se\xF1or,\r\n\r\nJe vous propose un march\xE9. En \xE9change
+    d\u2019un peu de pesos, je vous propose de vendre de la dro\u2026 des calmants.
+    Avec cela, cela devrait les calmer pendant quelque temps. Qu\u2019en dites-vous?\r\n"
+  Choix1: Gang 1
+  Choix1ValeurGang: -10
+  Choix1NumDuGang: 0
+  Choix1ValeurGang2: 0
+  Choix1NumDuGang2: 0
+  Choix1ValeurArgent: -10
+  Choix1BoolAction: 0
+  Choix2: Gang 2
+  Choix2ValeurGang: -10
+  Choix2NumDuGang: 0
+  Choix2ValeurGang2: 0
+  Choix2NumDuGang2: 0
+  Choix2ValeurArgent: -10
+  Choix2BoolAction: 0
+  VarAle: 0
