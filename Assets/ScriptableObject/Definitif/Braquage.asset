@@ -18,7 +18,7 @@ MonoBehaviour:
   CadrePerso: {fileID: 21300000, guid: f6db6139946c7464d8a5571f5429138b, type: 3}
   PointEvenement: {fileID: 21300000, guid: 0b7d9c8c7c608ac4fa1d2323da7fc9be, type: 3}
   NomPerso: Corrine Delaconta
-  Demande: "Monsieur le maire,\r\n\r\nLes \u201Cgang\u201D ont braqu\xE9 une banque.
+  Demande: "Monsieur le maire,\r\n\rLes \u201Cgang\u201D ont braqu\xE9 une banque.
     Ils sont rentr\xE9s, ont terroris\xE9 les pauvres citoyens pr\xE9sents sur place
     et sont repartis avec tout le contenu du coffre fort. Devons nous les poursuivre?\r"
   Choix1: Poursuivre

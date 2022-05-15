@@ -18,7 +18,7 @@ MonoBehaviour:
   CadrePerso: {fileID: 21300000, guid: f6db6139946c7464d8a5571f5429138b, type: 3}
   PointEvenement: {fileID: 21300000, guid: 18c77f71470640b42b88e771714ff7f8, type: 3}
   NomPerso: Nikolai Roarovich
-  Demande: "Priviet comrade,\r\n\r\nOn dirait que policiers avoir trouv\xE9 d\xE9p\xF4t
+  Demande: "Priviet comrade,\r\n\rOn dirait que policiers avoir trouv\xE9 d\xE9p\xF4t
     arme qui appartient \xE0 nous. Moi vous donner argent si vous laisser tranquille.
     Vous etre d\xE9cideur de situation.\r"
   Choix1: Accepter

@@ -18,8 +18,8 @@ MonoBehaviour:
   CadrePerso: {fileID: 21300000, guid: 2164ffd09c3c6d04ab70e63a13e4feb7, type: 3}
   PointEvenement: {fileID: 21300000, guid: 7d241eeece7bdc64d82e9c8a070a1fc1, type: 3}
   NomPerso: Hineko Nyakuza
-  Demande: "Konbanwa,\r\n\r\nMes shinobis m\u2019ont tenu inform\xE9 que certains
-    de mes hommes de main en ont profit\xE9 pour escroquer vos honn\xEAtes citoyens.
+  Demande: "Konbanwa,\r\n\rMes shinobis m\u2019ont tenu inform\xE9 que certains de
+    mes hommes de main en ont profit\xE9 pour escroquer vos honn\xEAtes citoyens.
     Veuillez m'excuser. Si vous vous refreiner de sanctions, je m\u2019assurerais
     que cela ne se reproduise pas.\r"
   Choix1: Excuser
