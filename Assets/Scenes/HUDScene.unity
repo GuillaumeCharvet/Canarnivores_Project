@@ -1905,14 +1905,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Event:
-  - {fileID: 11400000, guid: 0eb4b7731b4f13941880e5659462dab2, type: 2}
-  - {fileID: 11400000, guid: 7b575c4285f46a94b8697d1b319fea5f, type: 2}
-  - {fileID: 11400000, guid: 30e70e72d4db3004da2887cf293798df, type: 2}
-  - {fileID: 11400000, guid: 0804d046acfc31d4c994c3439b2c95a5, type: 2}
-  - {fileID: 11400000, guid: 69dd83a7eefe41141a441e1a9c94af88, type: 2}
-  Eventtest: {fileID: 11400000, guid: 0eb4b7731b4f13941880e5659462dab2, type: 2}
+  - {fileID: 11400000, guid: 1a18be84209af6a44b8c8aa782e8b597, type: 2}
+  - {fileID: 11400000, guid: 4e25c25deabc56d488dda5e18da77253, type: 2}
+  - {fileID: 11400000, guid: 7b6ef5bc2a6798a4598ddb4e95c62cdf, type: 2}
+  - {fileID: 11400000, guid: a513df2f646c89846b7db09713e9c551, type: 2}
+  - {fileID: 11400000, guid: 2b63548a5cc27a04ba15b49436acdf91, type: 2}
+  - {fileID: 11400000, guid: dc72c135cf5640245833e54c9b62768e, type: 2}
+  - {fileID: 11400000, guid: cdbdc3dfb88a88d4284cc5e07251341d, type: 2}
+  - {fileID: 11400000, guid: a2a5c67c7f850c9429f6cf12848dcbe8, type: 2}
+  - {fileID: 11400000, guid: 9ecf782d836091840b3b12a10cbae47e, type: 2}
+  - {fileID: 11400000, guid: 0af68fe7ff23c244ca92a7c37dc9770d, type: 2}
+  - {fileID: 11400000, guid: 0b15c7c6062539f4e9e201c3f69daef5, type: 2}
+  - {fileID: 11400000, guid: c689243ccb26d6e4b9b80b72cc5943ca, type: 2}
   eventactif: {fileID: 0}
   PointEvent: {fileID: 877626050}
+  TransformGangster: {fileID: 0}
+  GangAttach: {fileID: 0}
 --- !u!114 &1403120040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1928,6 +1936,7 @@ MonoBehaviour:
   Event: {fileID: 11400000, guid: 0eb4b7731b4f13941880e5659462dab2, type: 2}
   _InfoEvent: {fileID: 1403120039}
   _Gang: 0
+  _SonDuGang: {fileID: 0}
   _ImagePerso: {fileID: 2116960008}
   _CadrePerso: {fileID: 671806055}
   _PointEvenement: {fileID: 0}
@@ -1937,11 +1946,18 @@ MonoBehaviour:
   _Choix1: {fileID: 129882354}
   _Choix1ValeurGang: 0
   _Choix1NumDuGang: 0
+  _Choix1ValeurGang2: 0
+  _Choix1NumDuGang2: 0
+  _Choix1ValeurArgent: 0
   _Choix1BoolAction: 0
   _Choix2: {fileID: 1250029506}
   _Choi2ValeurGang: 0
   _Choix2NumDuGang: 0
+  _Choix2ValeurGang2: 0
+  _Choix2NumDuGang2: 0
+  _Choix2ValeurArgent: 0
   _Choix2BoolAction: 0
+  _varAle: 0
 --- !u!1 &1476278647
 GameObject:
   m_ObjectHideFlags: 0
