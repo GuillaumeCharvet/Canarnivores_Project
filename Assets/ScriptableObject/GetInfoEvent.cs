@@ -82,7 +82,7 @@ public class GetInfoEvent : MonoBehaviour
 
         _ImagePerso.sprite = _InfoEvent.eventactif.ImagePerso;
         _CadrePerso.sprite = _InfoEvent.eventactif.CadrePerso;
-        _PointEvenement.GetComponent<SpriteRenderer>().sprite = Event.PointEvenement;
+        
         _NomPerso.text = _InfoEvent.eventactif.NomPerso;
         _Demande.text = _InfoEvent.eventactif.Demande;
 
