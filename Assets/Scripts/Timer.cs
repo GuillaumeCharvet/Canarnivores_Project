@@ -23,7 +23,7 @@ public class Timer : MonoBehaviour
 
     public void Update()
     {
-        GetComponent<Text>().text = string.Format("{0:0}:{1:00}", 4 - Mathf.Floor(time/60), 59 - time%60) ;
+        GetComponent<Text>().text = string.Format("{0:0}:{1:00}", 2 - Mathf.Floor(time/60), 59 - time%60) ;
         //time.ToString()
 
         time = (int)Time.time ;
@@ -35,7 +35,7 @@ public class Timer : MonoBehaviour
             TimerExecute(); 
         }
 
-        if(time > 299)
+        if(time > 179)
         {
             Time.timeScale = 0;
             go.SetActive(true);
