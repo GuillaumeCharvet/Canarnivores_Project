@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 457b6673403210c46b78b72b50276874, type: 3}
   m_Name: Escroquerie
   m_EditorClassIdentifier: 
-  Gang: 4
+  Gang: 5
   SonDuGang: {fileID: 8300000, guid: 67e6e2896a357404e8c091e7aea152d8, type: 3}
   ImagePerso: {fileID: 21300000, guid: 0c0c2ae8a704b21428e37aeb90885c17, type: 3}
   CadrePerso: {fileID: 21300000, guid: 2164ffd09c3c6d04ab70e63a13e4feb7, type: 3}
@@ -36,4 +36,4 @@ MonoBehaviour:
   Choix2NumDuGang2: 0
   Choix2ValeurArgent: 10
   Choix2BoolAction: 0
-  VarAle: 0
+  VarAle: 4

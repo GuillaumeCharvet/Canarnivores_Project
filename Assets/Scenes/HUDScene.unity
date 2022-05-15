@@ -1906,17 +1906,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Event:
   - {fileID: 11400000, guid: 1a18be84209af6a44b8c8aa782e8b597, type: 2}
-  - {fileID: 11400000, guid: 4e25c25deabc56d488dda5e18da77253, type: 2}
-  - {fileID: 11400000, guid: 7b6ef5bc2a6798a4598ddb4e95c62cdf, type: 2}
   - {fileID: 11400000, guid: a513df2f646c89846b7db09713e9c551, type: 2}
-  - {fileID: 11400000, guid: 2b63548a5cc27a04ba15b49436acdf91, type: 2}
-  - {fileID: 11400000, guid: dc72c135cf5640245833e54c9b62768e, type: 2}
   - {fileID: 11400000, guid: cdbdc3dfb88a88d4284cc5e07251341d, type: 2}
-  - {fileID: 11400000, guid: a2a5c67c7f850c9429f6cf12848dcbe8, type: 2}
-  - {fileID: 11400000, guid: 9ecf782d836091840b3b12a10cbae47e, type: 2}
-  - {fileID: 11400000, guid: 0af68fe7ff23c244ca92a7c37dc9770d, type: 2}
   - {fileID: 11400000, guid: 0b15c7c6062539f4e9e201c3f69daef5, type: 2}
-  - {fileID: 11400000, guid: c689243ccb26d6e4b9b80b72cc5943ca, type: 2}
+  - {fileID: 11400000, guid: 2b63548a5cc27a04ba15b49436acdf91, type: 2}
   eventactif: {fileID: 0}
   PointEvent: {fileID: 877626050}
   TransformGangster: {fileID: 0}
@@ -1933,16 +1926,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56f90963a9dd53e479fe781fef3a78be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Event: {fileID: 11400000, guid: 0eb4b7731b4f13941880e5659462dab2, type: 2}
+  Event: {fileID: 0}
   _InfoEvent: {fileID: 1403120039}
   _Gang: 0
   _SonDuGang: {fileID: 0}
   _ImagePerso: {fileID: 2116960008}
   _CadrePerso: {fileID: 671806055}
-  _PointEvenement: {fileID: 0}
+  _PointEvenement: {fileID: 877626051}
   _NomPerso: {fileID: 548747714}
   _Demande: {fileID: 391247649}
-  _NombreDeChoix: 2
+  _NombreDeChoix: 0
   _Choix1: {fileID: 129882354}
   _Choix1ValeurGang: 0
   _Choix1NumDuGang: 0
