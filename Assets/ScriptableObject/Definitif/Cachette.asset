@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 457b6673403210c46b78b72b50276874, type: 3}
+  m_Name: Cachette
+  m_EditorClassIdentifier: 
+  Gang: 5
+  SonDuGang: {fileID: 8300000, guid: f0a998bf26ae02a42bb2bb945de9d809, type: 3}
+  ImagePerso: {fileID: 21300000, guid: 0a370ea8ef54f4542b3b875ae53b82a8, type: 3}
+  CadrePerso: {fileID: 21300000, guid: f6db6139946c7464d8a5571f5429138b, type: 3}
+  PointEvenement: {fileID: 21300000, guid: 0b7d9c8c7c608ac4fa1d2323da7fc9be, type: 3}
+  NomPerso: 
+  Demande: "Monsieur le maire,\r\n\r\nLes gangs des \u201Cnom du gang\u201D ont sabot\xE9
+    un quartier de Zoopolis en repr\xE9sailles des \u201Cnom de gang 2\u201D. Devons-nous
+    restaurer le quartier pour satisfaire les \u201Cgang 2\u201D? Attention, cela
+    risque de provoquer les \u201Cgang\u201C\r"
+  Choix1: Rien faire
+  Choix1ValeurGang: -10
+  Choix1NumDuGang: 0
+  Choix1BoolAction: 0
+  Choix2: Reconstruire
+  Choix2ValeurGang: 10
+  Choix2NumDuGang: 0
+  Choix2BoolAction: 0
