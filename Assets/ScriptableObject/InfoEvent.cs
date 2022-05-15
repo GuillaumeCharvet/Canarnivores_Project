@@ -94,6 +94,7 @@ public class InfoEvent : MonoBehaviour
             /*var listeGangster = GameObject.FindGameObjectsWithTag("Gangster");
             var gangsterAlea = (Random.Range(0, listeGangster.Length));
             PointEvent.transform.position = listeGangster[gangsterAlea].transform.position;*/
+            PointEvent.GetComponent<SpriteRenderer>().sprite = eventactif.PointEvenement;
         }
 
         PointEvent.SetActive(true);
